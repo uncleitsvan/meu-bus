@@ -1,0 +1,9 @@
+<h2>My Heroes</h2>
+<ul class="buses">
+  <li *ngFor="let bus of busList" (click)="onSelect(bus)">
+    <span class="badge">id: {{bus.id}}</span> name: {{bus.name}}
+  </li>
+
+  <app-bus-detail [bus]="selectedBus"></app-bus-detail>
+
+</ul>
