@@ -7,12 +7,14 @@ import { BusesComponent } from './buses/buses.component';
 import { BusDetailComponent } from './bus-detail/bus-detail.component';
 import {BusService} from "./bus.service";
 import { AppRoutingModule } from './/app-routing.module';
+import { AppMenuComponent } from './app-menu/app-menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BusesComponent,
-    BusDetailComponent
+    BusDetailComponent,
+    AppMenuComponent
   ],
   imports: [
     BrowserModule,
